@@ -284,15 +284,17 @@ This was the error message
 
 Start the backend
 
-bash
+```bash
 java -jar target/movieist-0.0.1-SNAPSHOT.jar
+```
 
 <img width="1366" height="721" alt="image" src="https://github.com/user-attachments/assets/42234068-0a61-4c50-9517-949e3501295f" />
 
 Then, separately, SSH into your backend server and make sure it is running on the database:
 
-bash
+```bash
 curl http://localhost:8080/api/v1/movies
+```
 
 <img width="1353" height="496" alt="image" src="https://github.com/user-attachments/assets/4c53e643-6a11-4df0-93de-50a16d833f91" />
 
