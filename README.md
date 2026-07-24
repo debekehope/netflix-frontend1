@@ -211,29 +211,29 @@ Let's add swap space to give the system breathing room:
 
 1. Create a 1GB swap file
 
-bash
+```bash
 sudo fallocate -l 1G /swapfile
-
+```
 2. Secure it (only root should read/write it)
 
-bash
+```bash
 sudo chmod 600 /swapfile
-
+```
 3. Format it as swap
 
-bash
+```bash
 sudo mkswap /swapfile
-
+```
 4. Enable it
 
-bash
+```bash
 sudo swapon /swapfile
-
+```
 5. Confirm it's active
 
-bash
+```bash
 free -h
-
+```
 <img width="860" height="262" alt="image" src="https://github.com/user-attachments/assets/01e7a175-6989-446c-9d5f-7435cac4ae36" />
 
 ## ▶️ Run the Frontend Application again
