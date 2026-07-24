@@ -280,8 +280,25 @@ This was the error message
 
 <img width="773" height="262" alt="image" src="https://github.com/user-attachments/assets/686bbb8b-76ce-4ccd-b846-e94239fb852e" />
 
-Start the backend and in another terminal, make sure backend is running
+**Start the backend and in another terminal, make sure backend is running**
 
+Start the backend
+
+bash
+java -jar target/movieist-0.0.1-SNAPSHOT.jar
+
+<img width="1366" height="721" alt="image" src="https://github.com/user-attachments/assets/42234068-0a61-4c50-9517-949e3501295f" />
+
+Then, separately, SSH into your backend server and make sure it is running on the database:
+
+bash
+curl http://localhost:8080/api/v1/movies
+
+<img width="1353" height="496" alt="image" src="https://github.com/user-attachments/assets/4c53e643-6a11-4df0-93de-50a16d833f91" />
+
+**Now our app is working right**
+
+<img width="1366" height="721" alt="image" src="https://github.com/user-attachments/assets/a5530099-6789-48ea-b52f-225fdbe27e33" />
 
 
 ---
@@ -335,11 +352,6 @@ Frontend setup steps:
 
 ## 🎓 Final Words
 
-Good luck with your studies and project deployment.
-
-**— DigitalWitch**
-
-
 Please Clone the Code for the FullStack app
 1) Frontend 
 https://github.com/digitalwitchdemo/netflix_frontend.git
@@ -347,7 +359,7 @@ https://github.com/digitalwitchdemo/netflix_frontend.git
 2) Backend
 https://github.com/digitalwitchdemo/netflix_backend.git
 
-make sure you deploy the database before starting the backend.
+Make sure you deploy the database before starting the backend.
 
 Finally. 
-Note: make sure you deploy the database before starting the backend.
+Note: Make sure you deploy the backend before starting the frontend.
